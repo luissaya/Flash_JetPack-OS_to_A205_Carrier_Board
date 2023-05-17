@@ -11,16 +11,16 @@ Before we can move on to the installation steps, we need to make sure that the b
 
 1. First, we need to disconnect power of the board.
 2. Connect your carrier board and your Linux host PC with a USB type-C link.
-  [carrier board](./img/Flash_A2051.png)
+  ![carrier board](./img/Flash_A2051.png)
 3. Power up and turn on board while pressing RECOVERY button (W32) and then release the button.
-  [carrier board](./img/Flash_A2052.jpg)
+  ![carrier board](./img/Flash_A2052.jpg)
 4. On the Linux host PC screen, we can right click the mouse to open a Terminal and enter the command `lsusb`. When the returned content has the `NVidia Corp`. in it, it means that your A205 Carrier Board is in force recovery mode and you can proceed to the subsequent operations.
 
 The ID depends on the modules on the carrier board and the information show as below:
 * For Jetson Nano: 0955:7f21 NVidia Corp
 * For Jetson Xavier NX: 0955:7e19 NVidia Corp
 * For Jetson TX2 NX: 0955:7c18 NVidia Corp
-  [carrier board](./img/Flash_A2053.jpg)
+  ![carrier board](./img/Flash_A2053.jpg)
 
 ## Process
 ### 1. Download the proper NVIDIA Linux Driver Package
